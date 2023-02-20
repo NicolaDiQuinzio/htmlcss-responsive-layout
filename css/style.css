@@ -1,9 +1,12 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
+/* colors */
 :root{
     --bluecolor: #0084fd;
     --azurecolor:#b5ddff;
@@ -11,3 +14,136 @@
     --itsfeecolor:#fdc15f;
     --footercolor:#333333;
 }
+
+.bglila{
+    background-color: var(--lilaccolor);
+}
+.textlila{
+    color: var(--lilaccolor);
+}
+.bgazure{
+     background-color: var(--azurecolor);    
+     }
+.bluetext{
+    color: var(--bluecolor);
+}
+.bgblue{
+    background-color: var(--bluecolor);
+}
+.bgwhite{
+    background-color: white;
+}
+.whitetext{
+    color: white;
+}
+.yellowtext{
+    color: var(--itsfeecolor);
+}
+.bgdark{
+    background-color: var(--footercolor);
+}
+ /* display flex */
+ .displayflex {
+    display: flex;
+    flex-direction: row;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .space-between {
+    justify-content: space-between;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .flow-column {
+    flex-flow: column wrap;
+  }
+  .flex-column {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .justify-start {
+    justify-content: start;
+  }
+  .textcenter{
+    text-align: center;
+  }
+
+  /* spacings */
+  .margin1{
+    margin: 1rem;
+  }
+  .margintop5{
+    margin-top: 5rem;
+  }
+
+/* body */
+.body{
+    scroll-behavior: smooth;
+}
+
+/* header */
+header{  
+    background-color: var(--bluecolor);
+    width: 100%;  
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+  }
+ 
+.inline{
+    display: inline;
+ }
+
+.menù{
+    color: white;
+    font-size: 20px;
+}
+.hidden{
+    display: none;
+}
+
+/* main */
+.container{
+    padding: 2rem 2rem 3rem 2rem;
+}
+/* intro */
+ main img {
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+.borderadius{
+    border-radius: 10px;
+    
+}
+.card{
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* planning */
+
+#planning img{
+    max-width: 100%;
+}
+.cardplanning{
+    background-color: white;
+}
+
+.circularphoto{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+background-position: relative;
+
+        
+}
+
+
+
+
