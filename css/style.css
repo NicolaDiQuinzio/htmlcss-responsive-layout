@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 /* colors */
@@ -142,8 +143,9 @@ header{
 
 /* main */
 .container{
-  width: 400px;
+
     padding: 2rem 2rem 3rem 2rem;
+  
 }
 /* intro */
  main img {
@@ -169,6 +171,8 @@ ul{
     background-color: white;
 }
 
+
+
 .circularphoto{
 height: 150px;
 width: 150px;
@@ -188,5 +192,72 @@ background-position: relative;
 #features h4{
   font-size: 1.2rem;
 }
+#features .card{
+  margin-top: 2rem;
+  
+}
+/* Sections */
+            #intro {
+                margin-top: 10px;
+            }
+            
+            #planning {
+                padding: 20px 10px;
+            }
+        
 
 
+        @media only screen and (min-width: 1200px) {
+            /* Navbar */
+            .navbar {
+                display: flex;
+                justify-content: end;
+                position: relative;
+                
+            }
+            .inline {
+                display: block;
+                margin-bottom: 10px;
+            }
+            .hidden {
+                display:flex;
+                flex-direction: row;
+                gap: 20px;
+              position: absolute;
+            
+              left: 5px;
+
+               
+            }
+            .hidden li a{
+               color: white;
+               
+            }
+            .menù {
+                display: none;
+            }
+            /* Cards */
+            .container {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+            }
+          
+            .card {
+              width: calc(40% - 20px);
+              margin: 10px;
+            }
+          }
+            
+
+
+          @media only screen and (min-width: 992px) {
+           
+            .card {
+              width: calc(50% - 20px);
+              margin-right: 40px;
+            }
+            .card:last-child {
+              margin-right: 0;
+            }
+          }
