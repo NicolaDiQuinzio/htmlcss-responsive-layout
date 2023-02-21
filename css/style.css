@@ -80,12 +80,45 @@
   .margintop5{
     margin-top: 5rem;
   }
-
+  .margintop2{
+    margin-top: 2rem;
+  }
+  
+  .padding2{
+    padding: 2rem;
+  }
+.lineheight{
+  line-height: 1.6rem;
+}
+button{
+ border-radius: 20px;
+ padding: 1rem;
+ border: 1px solid transparent;
+ font-size: 1rem;
+}
+.logosize{
+  font-size: 4.5rem;
+}
+.paddingtop{
+  padding-top: 2rem;
+}
+.paddingtop1{
+padding-top: 1rem;
+}
+.padding1{
+  padding: 1rem;
+}
+.paddingcard{
+  padding: 1.5rem;
+}
+.arrow{
+  padding: 1.7rem;
+  border-radius: 50%;
+}
 /* body */
 .body{
     scroll-behavior: smooth;
 }
-
 /* header */
 header{  
     background-color: var(--bluecolor);
@@ -109,6 +142,7 @@ header{
 
 /* main */
 .container{
+  width: 400px;
     padding: 2rem 2rem 3rem 2rem;
 }
 /* intro */
@@ -145,5 +179,14 @@ background-position: relative;
 }
 
 
+
+
+/* features */
+#features h3{
+  font-size: 3rem;
+}
+#features h4{
+  font-size: 1.2rem;
+}
 
 
